@@ -1,0 +1,51 @@
+* {
+  outline: 1px solid --peru;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.Header .top_menu {
+  line-height: 40px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.Header .top_menu .t_menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.Header .ash_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  line-height: 70px;
+}
+
+.Header .ash_wrap .gnb {
+  display: flex;
+  gap: 60px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.MainVisual figure {
+  position: relative;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.MainVisual .itm01 {
+  background-image: url(../public/images/mainvisual01.jpg);
+}
+
+.MainVisual .itm02 {
+  background-image: url(../public/images/mainvisual03.jpg);
+}
