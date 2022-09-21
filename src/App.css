@@ -36,16 +36,188 @@
 
 .MainVisual figure {
   position: relative;
-  height: 700px;
+  height: 800px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   background-size: 100%;
 }
 
 .MainVisual .itm01 {
-  background-image: url(../public/images/mainvisual01.jpg);
+  background-image: url(../public/images/mainvisual01.PNG);
 }
 
 .MainVisual .itm02 {
-  background-image: url(../public/images/mainvisual03.jpg);
+  background-image: url(../public/images/mainvisual02.jpg);
+}
+
+.MainVisual .itm03 {
+  background-image: url(../public/images/main_visual03.PNG);
+}
+
+.MainVisual .container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: 0 0 0 -600px; */
+  color: #111;
+}
+
+.MainVisual .tit {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.MainVisual .des {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.total_sevice {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.total_sevice .top {
+  margin: 0 0 10px 0;
+}
+
+.total_sevice .top,
+.total_sevice .bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.total_sevice .top>div,
+.total_sevice .bottom>div {
+  width: 399px;
+  border-top: 2px solid #0e787c;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 30px 10px;
+}
+
+.total_sevice .top .main_tit {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+
+.total_sevice .top p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+
+.total_sevice .f_box {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 30px;
+  border: 1px solid #0e787c;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.total_sevice .s_box {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 30px;
+  margin: 0 10px 10px 10px;
+  border: 1px solid #0e787c;
+  border-radius: 5px;
+}
+
+.total_sevice .online .check {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 110px;
+  border: 1px solid #0e787c;
+  border-radius: 5px;
+}
+
+.total_sevice .information .main_num {
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.total_sevice .information .kind {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100px;
+}
+
+.total_sevice .information .number {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.total_sevice .information .children {
+  margin: 0 0 20px 0;
+}
+
+.check_sec {
+  padding: 100px 0;
+}
+
+.check_sec h2 {
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.check_sec>p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.check_sec h3 {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.check_sec p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.check_sec input {
+  margin: 0 0 50px 0;
+}
+
+.check_sec .box_center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check_sec .box_center>div {
+  border: 1px solid #ddd;
+  width: 290px;
+  padding: 50px 30px;
+}
+
+.check_sec .box_center .symbol {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+}
+
+.check_sec .box_center img {
+  width: 80px;
 }
