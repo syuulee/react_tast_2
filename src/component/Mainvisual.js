@@ -23,7 +23,7 @@ const MainVisual = () => {
     const setting = {
         arrows: false,
         // dots: true,
-        afterChange: index => setIDX(index),
+        // afterChange: index => setIDX(index),
         autoplay: true,
         autoplaySpeed: 5000,
         fade: true,

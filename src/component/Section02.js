@@ -5,7 +5,7 @@ const Section02 = () => {
         <section className='check_sec'>
             <div className="container">
                 <h2>진료과/의료진</h2>
-                <p>진료과/의료진을 검색하시면 더욱 쉽고 빠르게 서비스를 이용하실 수 있습니다.</p>
+                <p className='sub_des'>진료과/의료진을 검색하시면 더욱 쉽고 빠르게 서비스를 이용하실 수 있습니다.</p>
                 <input type="검색하실 진료과/의료진 명을 입력하세요." />
                 <div className="box_center">
                     <div className="office">
