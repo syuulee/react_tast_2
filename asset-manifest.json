@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/syuulee/react_tast_2/static/css/main.c9af01cc.css",
-    "main.js": "/syuulee/react_tast_2/static/js/main.ab4fa6c5.js",
-    "static/media/mainvisual01.PNG": "/syuulee/react_tast_2/static/media/mainvisual01.36687c6a2cc2b27821a4.PNG",
-    "static/media/slide_new_01.jpg": "/syuulee/react_tast_2/static/media/slide_new_01.07fb8fbd3f993b5ab5d8.jpg",
-    "static/media/slide_new_05.jpg": "/syuulee/react_tast_2/static/media/slide_new_05.a417d5c44b81f4f0d4a5.jpg",
-    "static/media/slide_new_04.jpg": "/syuulee/react_tast_2/static/media/slide_new_04.162a28e2868edcbd7b2a.jpg",
-    "static/media/slide_new_06.jpg": "/syuulee/react_tast_2/static/media/slide_new_06.797d3aeff2be21b37edd.jpg",
-    "static/media/slide_new_03.jpg": "/syuulee/react_tast_2/static/media/slide_new_03.da4fcf18dad7795738f8.jpg",
-    "static/media/slide_new_02.jpg": "/syuulee/react_tast_2/static/media/slide_new_02.03843621399a5dd29763.jpg",
-    "static/media/slide_new_07.jpg": "/syuulee/react_tast_2/static/media/slide_new_07.df30a501c3c148aaa6cc.jpg",
-    "index.html": "/syuulee/react_tast_2/index.html",
-    "main.c9af01cc.css.map": "/syuulee/react_tast_2/static/css/main.c9af01cc.css.map",
-    "main.ab4fa6c5.js.map": "/syuulee/react_tast_2/static/js/main.ab4fa6c5.js.map"
+    "main.css": "/react_tast_2/static/css/main.08a4cdb0.css",
+    "main.js": "/react_tast_2/static/js/main.36f26f9c.js",
+    "static/media/mainvisual01.PNG": "/react_tast_2/static/media/mainvisual01.36687c6a2cc2b27821a4.PNG",
+    "static/media/slide_new_01.jpg": "/react_tast_2/static/media/slide_new_01.07fb8fbd3f993b5ab5d8.jpg",
+    "static/media/slide_new_05.jpg": "/react_tast_2/static/media/slide_new_05.a417d5c44b81f4f0d4a5.jpg",
+    "static/media/slide_new_04.jpg": "/react_tast_2/static/media/slide_new_04.162a28e2868edcbd7b2a.jpg",
+    "static/media/slide_new_06.jpg": "/react_tast_2/static/media/slide_new_06.797d3aeff2be21b37edd.jpg",
+    "static/media/slide_new_03.jpg": "/react_tast_2/static/media/slide_new_03.da4fcf18dad7795738f8.jpg",
+    "static/media/slide_new_02.jpg": "/react_tast_2/static/media/slide_new_02.03843621399a5dd29763.jpg",
+    "static/media/slide_new_07.jpg": "/react_tast_2/static/media/slide_new_07.df30a501c3c148aaa6cc.jpg",
+    "index.html": "/react_tast_2/index.html",
+    "main.08a4cdb0.css.map": "/react_tast_2/static/css/main.08a4cdb0.css.map",
+    "main.36f26f9c.js.map": "/react_tast_2/static/js/main.36f26f9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9af01cc.css",
-    "static/js/main.ab4fa6c5.js"
+    "static/css/main.08a4cdb0.css",
+    "static/js/main.36f26f9c.js"
   ]
 }
