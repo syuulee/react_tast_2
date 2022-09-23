@@ -18,7 +18,7 @@ const Section01 = () => {
                         <div className='main_tit'>
                             처음 오시는 분 예약상담신청
                         </div>
-                        <p>전문상담사가 빠른 예약을 도와드립니다.</p>
+                        <p className='two short'>전문상담사가 빠른 예약을 도와드립니다.</p>
                         <div className='look'>
                             <div className='look_box'>
                                 <div className='wirte_name'>
@@ -54,7 +54,7 @@ const Section01 = () => {
                             />
                         </figure>
                         <div className='main_tit'>온라인 진료예약/확인</div>
-                        <p>
+                        <p className='two'>
                             온라인으로 쉽고 빠르게 <br />
                             진료예약 및 조회를 하실 수 있습니다.
                         </p>
@@ -78,11 +78,16 @@ const Section01 = () => {
                                 alt=''
                             />
                         </figure>
-                        <div className='main_tit'>진료안내</div>
+                        <div className='main_tit '>진료안내</div>
                         <p>언제나 환자를 향합니다.</p>
-                        <span className='main_num'>
-                            <a href=''>대표전화 : 1688-7575</a>
-                        </span>
+                        <div className='cancer'>
+                            <span className='kind'>
+                                <a href=''>대표전화</a>
+                            </span>
+                            <span className='number main'>
+                                <a href=''> 1688-7575</a>
+                            </span>
+                        </div>
                         <div className='cancer'>
                             <span className='kind'>
                                 <a href=''>암병원</a>

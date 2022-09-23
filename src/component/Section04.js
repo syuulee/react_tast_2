@@ -27,7 +27,7 @@ const Section04 = () => {
     const set = {
         arrows: false,
         // dots: true,
-        // afterChange: index => setIND(index),
+        afterChange: index => setIND(index),
         autoplay: true,
         autoplaySpeed: 3000,
         fade: true,
@@ -38,7 +38,7 @@ const Section04 = () => {
                 {
                     MSLIDE.map((slide, idx) => {
                         return (
-                            <figure key={slide.id} className={'itm0' + slide.id + (idx === IND ? ' on' : '')}>
+                            <figure key={slide.id} className={'itm0' + slide.id + (IND === idx ? ' on' : '')}>
                                 {/* <div className='bg'></div> */}
                                 <div className="container">
                                     <strong className="tit">{slide.title}</strong>
@@ -53,7 +53,7 @@ const Section04 = () => {
                 {
                     MSLIDE.map((dots, idx) => {
                         return (
-                            <li key={dots.id} className={idx === IND ? ' on' : ''} onClick={() => sub_Slide.current.slickGoTo(idx)}>{dots.title}</li>
+                            <li key={dots.id} className={IND === idx ? ' on' : ''} onClick={() => sub_Slide.current.slickGoTo(idx)}>{dots.title}</li>
                         )
                     })
                 }

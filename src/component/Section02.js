@@ -46,7 +46,7 @@ const Section02 = () => {
                                 <img
                                     src={
                                         process.env.PUBLIC_URL +
-                                        '/images/microscope.png'
+                                        '/images/vaccine.png'
                                     }
                                     alt=''
                                 />
