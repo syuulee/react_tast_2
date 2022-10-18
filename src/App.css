@@ -68,14 +68,18 @@
 }
 
 .MainVisual .tit {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 700;
   margin: 0 0 20px 0;
+  color: #fff;
+  text-shadow: 0 0 3px #333;
 }
 
 .MainVisual .des {
-  font-size: 19px;
+  font-size: 23px;
   font-weight: 400;
+  color: #fff;
+  text-shadow: 0 0 3px #333;
 }
 
 .total_sevice {
@@ -354,6 +358,10 @@
   padding: 15px 0;
 }
 
+.news .tab_menu>li:hover {
+  cursor: pointer;
+}
+
 .news .tab_menu>li.on {
   background: #0e787c;
   color: #f1f1f1;
@@ -379,6 +387,7 @@
 
 .news .tab_data:hover {
   border: 1px solid #0e787c;
+  cursor: pointer;
 }
 
 .news .tab_data .date {

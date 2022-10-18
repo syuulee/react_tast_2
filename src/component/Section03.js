@@ -69,7 +69,9 @@ const Section03 = () => {
                     <ul className="tab_menu">{
                         TAB.map((tabb, idx) => {
                             return (
-                                <li onClick={() => setTab(idx)} className={tab === idx ? 'on' : ''}>{tabb.title}</li>
+                                <li onClick={() => setTab(idx)} className={tab === idx ? 'on' : ''}>
+                                    {tabb.title}
+                                </li>
                             )
                         })
                     }
@@ -88,7 +90,7 @@ const Section03 = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* {vvvv[tab].con} */}
         </section >
     )
