@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+const SearchMenu = [
+    { id: 1, title: "진료과", detail: "원하시는 진료과를 선택하시면 소개 및 의료진정보를 보실 수 있습니다.", src: process.env.PUBLIC_URL + "/images/stethoscope_w.png" },
+    { id: 2, title: "전문센터", detail: "원하시는 전문센터를 선택하시면 소개 및 의료진정보를 보실 수 있습니다.", src: process.env.PUBLIC_URL + "/images/vaccine_w.png" },
+    { id: 3, title: "특수클리닉", detail: "원하시는 특수클리닉을 선택하시면 소개 및 의료진정보를 보실 수 있습니다.", src: process.env.PUBLIC_URL + "/images/tablets_w.png" },
+    { id: 4, title: "외래진료안내", detail: "외래진료예약부터 진료절차까지 외래진료의 모든 것을 알려드립니다.", src: process.env.PUBLIC_URL + "/images/medical_w.png" },
+]
 const Section02 = () => {
     return (
         <section className='check_sec'>
@@ -21,79 +28,22 @@ const Section02 = () => {
                         </button>
                     </form>
                 </div>
+
                 <div className='box_center'>
-                    <div className='office'>
-                        <div className='symbol'>
-                            <figure>
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        '/images/stethoscope.png'
-                                    }
-                                    alt=''
-                                />
-                            </figure>
-                        </div>
-                        <h3>진료과</h3>
-                        <p>
-                            원하시는 진료과를 선택하시면 <br />
-                            소개 및 의료진정보를 보실 수 있습니다.
-                        </p>
-                    </div>
-                    <div className='center'>
-                        <div className='symbol'>
-                            <figure>
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        '/images/vaccine.png'
-                                    }
-                                    alt=''
-                                />
-                            </figure>
-                        </div>
-                        <h3>전문센터</h3>
-                        <p>
-                            원하시는 전문센터를 선택하시면 <br />
-                            소개 및 의요진정보를 보실 수 있습니다.
-                        </p>
-                    </div>
-                    <div className='special'>
-                        <div className='symbol'>
-                            <figure>
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        '/images/tablets.png'
-                                    }
-                                    alt=''
-                                />
-                            </figure>
-                        </div>
-                        <h3>특수클리닉</h3>
-                        <p>
-                            원하시는 특수클리닉을 선택하시면
-                            <br /> 소개 및 의료진정보를 보실 수 있습니다.
-                        </p>
-                    </div>
-                    <div className='guide'>
-                        <div className='symbol'>
-                            <figure>
-                                <img
-                                    src={
-                                        process.env.PUBLIC_URL +
-                                        '/images/medical.png'
-                                    }
-                                    alt=''
-                                />
-                            </figure>
-                        </div>
-                        <h3>외래진료안내</h3>
-                        <p>
-                            외래진료예약부터 진료절차까지 <br />
-                            외래진료의 모든 것을 알려드립니다.
-                        </p>
-                    </div>
+                    {
+                        SearchMenu.map(it => {
+                            return (
+                                <div className='office'>
+                                    <div className='symbol'>
+                                        <figure>
+                                            <img src={it.src} alt="" />
+                                        </figure>
+                                    </div>
+                                    <h3>{it.title}</h3>
+                                    <p>{it.detail}</p>
+                                </div>
+                            )
+                        })}
                 </div>
             </div>
         </section>

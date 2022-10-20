@@ -57,7 +57,6 @@ const TAB = [
 ]
 
 
-
 const Section03 = () => {
     const [tab, setTab] = useState(0)
     return (
@@ -65,7 +64,7 @@ const Section03 = () => {
             <div className="container">
                 <h2>서울아산병원의 소식</h2>
                 <p className='sub_tit'>서울아산병원의 소식 및 정보를 알려드립니다.</p>
-                <div className="tab">
+                <div className="container">
                     <ul className="tab_menu">{
                         TAB.map((tabb, idx) => {
                             return (
