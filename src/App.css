@@ -1,12 +1,11 @@
 * {
-  outline: 1px solid --peru;
+  outline: 1px solid -- peru;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-
 
 .Header .top_menu {
   line-height: 40px;
@@ -416,7 +415,7 @@
 
 .slide_part {
   position: relative;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .slide_part figure {
@@ -483,7 +482,7 @@
 
 .slide_part .dots {
   position: absolute;
-  bottom: 35%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -531,7 +530,7 @@
 .footer .top {
   display: flex;
   justify-content: space-between;
-  line-height: 90px;
+  line-height: 100px;
 }
 
 .footer .top .top_menu {
