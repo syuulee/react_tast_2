@@ -76,15 +76,16 @@ const Section03 = () => {
                     }
                     </ul>
                     <div className="tab_content">
-                        <div className='content_box'>{TAB[tab].content.map(ix => {
-                            return (
-                                <div className='tab_data'>
-                                    <span className="date">{ix.Date}</span>
-                                    <strong>{ix.title}</strong>
-                                    <p>{ix.content}</p>
-                                </div>
-                            )
-                        })}
+                        <div className='content_box'>
+                            {TAB[tab].content.map(ix => {
+                                return (
+                                    <div className='tab_data'>
+                                        <span className="date">{ix.Date}</span>
+                                        <strong>{ix.title}</strong>
+                                        <p>{ix.content}</p>
+                                    </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
