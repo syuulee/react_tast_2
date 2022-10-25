@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Section01 = () => {
+const DetailHospital = () => {
     return (
         <section className='total_sevice'>
             <div className='container'>
@@ -18,7 +18,9 @@ const Section01 = () => {
                         <div className='main_tit'>
                             처음 오시는 분 예약상담신청
                         </div>
-                        <p className='two short'>전문상담사가 빠른 예약을 도와드립니다.</p>
+                        <p className='two short'>
+                            전문상담사가 빠른 예약을 도와드립니다.
+                        </p>
                         <div className='look'>
                             <div className='look_box'>
                                 <div className='wirte_name'>
@@ -169,4 +171,4 @@ const Section01 = () => {
     );
 };
 
-export default Section01;
+export default DetailHospital;

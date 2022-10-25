@@ -18,52 +18,65 @@ const MSLIDE = [
     },
 ]
 
-const Section04 = () => {
+const SlideInformation = () => {
     const [IND, setIND] = useState();
     useEffect(() => {
-        setIND(0)
+        setIND(0);
     }, []);
     const sub_Slide = useRef(null);
     const set = {
         arrows: false,
         // dots: true,
-        afterChange: index => setIND(index),
+        afterChange: (index) => setIND(index),
         autoplay: true,
         autoplaySpeed: 3000,
         fade: true,
-    }
+    };
     return (
         <section className='slide_part'>
             <Slider {...set} ref={sub_Slide}>
-                {
-                    MSLIDE.map((slide, idx) => {
-                        return (
-                            <figure key={slide.id} className={'itm0' + slide.id + (IND === idx ? ' on' : '')}>
-                                {/* <div className='bg'></div> */}
-                                <div className="container">
-                                    <strong className="tit">{slide.title}</strong>
-                                    <p className="des">{slide.des}</p>
-                                </div>
-                            </figure>
-                        )
-                    })
-                }
+                {MSLIDE.map((slide, idx) => {
+                    return (
+                        <figure
+                            key={slide.id}
+                            className={
+                                'itm0' + slide.id + (IND === idx ? ' on' : '')
+                            }
+                        >
+                            {/* <div className='bg'></div> */}
+                            <div className='container'>
+                                <strong className='tit'>{slide.title}</strong>
+                                <p className='des'>{slide.des}</p>
+                            </div>
+                        </figure>
+                    );
+                })}
             </Slider>
-            <ul className="dots">
-                {
-                    MSLIDE.map((dots, idx) => {
-                        return (
-                            <li key={dots.id} className={IND === idx ? ' on' : ''} onClick={() => sub_Slide.current.slickGoTo(idx)}>{dots.title}</li>
-                        )
-                    })
-                }
+            <ul className='dots'>
+                {MSLIDE.map((dots, idx) => {
+                    return (
+                        <li
+                            key={dots.id}
+                            className={IND === idx ? ' on' : ''}
+                            onClick={() => sub_Slide.current.slickGoTo(idx)}
+                        >
+                            {dots.title}
+                        </li>
+                    );
+                })}
             </ul>
-            <div className="arrows">
-                <i className="xi-angle-left" onClick={() => sub_Slide.current.slickPrev()}></i>
-                <i className="xi-angle-right" onClick={() => sub_Slide.current.slickNext()}></i>
+            <div className='arrows'>
+                <i
+                    className='xi-angle-left'
+                    onClick={() => sub_Slide.current.slickPrev()}
+                ></i>
+                <i
+                    className='xi-angle-right'
+                    onClick={() => sub_Slide.current.slickNext()}
+                ></i>
             </div>
-        </section >
-    )
-}
+        </section>
+    );
+};
 
-export default Section04;
+export default SlideInformation;
