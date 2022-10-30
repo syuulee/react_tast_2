@@ -570,3 +570,11 @@
   height: 100px;
   color: #fff;
 }
+
+.smenu {
+  display: none;
+}
+
+.gnb li a:hover .smenu {
+  display: block;
+}
