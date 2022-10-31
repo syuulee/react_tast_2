@@ -571,10 +571,24 @@
   color: #fff;
 }
 
-.smenu {
-  display: none;
+.sub_menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  line-height: 40px;
+  text-align: center;
+  width: 800px;
+  z-index: 999;
 }
 
-.gnb li a:hover .smenu {
-  display: block;
+.sub_menu li {
+  background: #fff;
 }
+
+.gnb li {
+  position: relative;
+}
+
+/* .gnb li:hover .sub_menu {
+  top: 50px;
+} */
