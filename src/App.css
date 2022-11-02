@@ -573,15 +573,19 @@
 
 .sub_menu {
   position: absolute;
-  top: 50px;
-  left: 0;
-  line-height: 40px;
+  top: -1200%;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1;
   text-align: center;
-  width: 800px;
+  font-size: 15px;
+  width: 180px;
+  padding: 0 0 20px 0;
   z-index: 999;
 }
 
 .sub_menu li {
+  padding: 0 0 15px 0;
   background: #fff;
 }
 
@@ -589,6 +593,6 @@
   position: relative;
 }
 
-/* .gnb li:hover .sub_menu {
-  top: 50px;
-} */
+.gnb li:hover .sub_menu {
+  top: 65px;
+}
